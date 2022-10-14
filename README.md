@@ -1,4 +1,4 @@
-<h1 align= "center"> Projeto Emunah <img src="img/emunah-read.me.png" width="25px" height="25px"> </h1>
+<h1 align= "center"> Projeto Emunah  </h1>
 
 
 

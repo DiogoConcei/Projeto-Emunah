@@ -1,4 +1,7 @@
-<h1 align= "center"> Projeto Emunah <img src="img/logo-emunah.png" width="100px" height="100px" > </h1>
+<h1 align= "center"> Projeto Emunah  </h1>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=RayanArgolo03&label=Profile%20views&color=0e75b6&style=flat" alt="Spyke27" /></p>
+
+
 
 
 ## 📃 O que é o Emunah?

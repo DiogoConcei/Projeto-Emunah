@@ -1,4 +1,4 @@
-< h1 align="center"> Projeto Emunah 🕊️<h1>
+< h1 align="center"> Projeto Emunah 🕊️</h1>
 
 ## 📃 O que é o Emunah?
 

@@ -1,4 +1,4 @@
-<h1 align= "center"> Projeto Emunah <img src="emunah.jpeg" width="10px" height="10px" > </h1>
+<h1 align= "center"> Projeto Emunah <img src="img/logo-emunah.png" width="100px" height="100px" > </h1>
 
 
 ## 📃 O que é o Emunah?

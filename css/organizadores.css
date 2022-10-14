@@ -1,0 +1,336 @@
+/* Fontes */
+
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@900&display=swap");
+
+/* Fontes */
+
+/* Dark Mode */
+:root {
+  --body-bg: radial-gradient(
+    circle,
+    rgb(255, 174, 0) 24%,
+    rgba(255, 136, 0, 0.986) 80%
+  );
+  --nav-border: 1px dashed rgb(0, 0, 0);
+
+  --botao: orange;
+  --borda-botao: 3px solid whitesmoke;
+
+  --titulo: whitesmoke;
+  --sombra-titulo: 2px 2px 2px rgb(0, 0, 0);
+
+  --emunah: rgb(253, 165, 2);
+  --sombra-emunah: 3px 2px 3px rgb(0, 0, 0);
+
+  --funcao: rgb(255, 255, 255);
+  --sombra-funcao: 3px 2px 2px rgb(0, 0, 0);
+
+  --nome: rgb(0, 0, 0);
+  --sombra-nome: 1px 1px 3px rgba(255, 255, 255, 0.753);
+
+  --nome-criador-pagina: whitesmoke;
+  --sombra-criador-pagina: 1px 3px 2px rgb(0, 0, 0);
+  --borda-criador-pagina: 1px solid rgb(0, 0, 0);
+
+  --fundo-imagem: rgb(201, 128, 20);
+  --borda-imagem: 4px solid whitesmoke;
+
+  --redes-sociais: whitesmoke;
+  --border-radius-redes-sociais: 50%;
+  --hover-redes-sociais: #2c3e50;
+}
+
+.dark-mode:root {
+  --body-bg: black;
+  --nav-border: 1px dashed rgb(255, 255, 255);
+
+  --botao: whitesmoke;
+  --borda-botao: 3px solid orange;
+
+  --titulo: rgb(253, 165, 2);
+  --sombra-titulo: 0px 0px 1px whitesmoke;
+
+  --emunah: whitesmoke;
+  --sombra-emunah: 1px 1px 1px rgb(253, 165, 2);
+
+  --funcao: rgb(253, 165, 2);
+  --sombra-funcao: 0px 0px 1px whitesmoke;
+
+  --nome: rgba(255, 255, 255, 0.753);
+  --sombra-nome: 3px 2px 2px rgb(0, 0, 0);
+
+  --nome-criador-pagina: rgb(253, 165, 2);
+  --sombra-criador-pagina: 0px 0px 1px rgb(255, 255, 255);
+  --borda-criador-pagina: 1px solid rgba(27, 25, 25, 0.678);
+
+  --fundo-imagem: rgba(238, 229, 229, 0.925);
+  --borda-imagem: 5px solid rgb(201, 128, 20);
+
+  --redes-sociais: rgb(201, 128, 20);
+  --border-radius-redes-sociais: 60%;
+  --hover-redes-sociais: rgba(238, 229, 229, 0.925);
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background: var(--body-bg);
+}
+
+/* Nav Bar */
+nav {
+  width: 100%;
+  height: 82px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  border-bottom: var(--nav-border);
+}
+
+.logo-nav-bar {
+  height: 92%;
+}
+
+.logo-nav-bar:hover {
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.topico-nav-bar {
+  margin-right: 4%;
+  font-size: 1.4em;
+  color: white;
+  font-family: "MuseoModerno", cursive;
+  text-shadow: 1px 1px 2px rgb(253, 165, 2);
+}
+
+.topico-nav-bar:hover {
+  color: rgb(253, 165, 2);
+  text-shadow: 0px 1px 1px white;
+  transition: 1s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.container-botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao {
+  width: 30px;
+  height: 30px;
+  border: var(--borda-botao);
+  border-radius: 65px;
+  cursor: pointer;
+  position: relative;
+}
+
+.botao::before {
+  content: "";
+  width: 27px;
+  height: 26px;
+  background: var(--botao);
+  border-radius: 565px;
+  position: absolute;
+  top: 7%;
+  left: 3%;
+  transform: translateY(-1%);
+}
+
+/* Nav Bar */
+
+/* Título da página */
+.titulo-organizadores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-organizadores h1 {
+  color: var(--titulo);
+  font-size: 3.3em;
+  margin-top: 1%;
+  font-family: "MuseoModerno", cursive;
+  /* text-shadow: 1px 1px 2px rgb(253, 165, 2); */
+  text-shadow: var(--sombra-titulo);
+}
+
+.titulo-organizadores span {
+  color: var(--emunah);
+  font-family: "MuseoModerno", cursive;
+  text-shadow: var(--sombra-emunah);
+}
+/* Título da página */
+
+/* Conteúdo da página*/
+.container-organizadores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 1%;
+}
+
+.funcao-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--funcao);
+  font-size: 2em;
+  font-family: "MuseoModerno", cursive;
+  text-shadow: var(--sombra-funcao);
+}
+
+.fundo-imagem-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: var(--fundo-imagem);
+  border-radius: 50%;
+  border: var(--borda-imagem);
+}
+
+.fundo-imagem-card img {
+  height: 209px;
+  width: 210px;
+  border-radius: 60%;
+  margin-top: 2%;
+}
+
+.nome-card {
+  line-height: 0;
+  margin: 22px;
+  color: var(--nome);
+  text-shadow: var(--sombra-nome);
+}
+
+.criador-pagina-card {
+  line-height: 0;
+  margin: 9px;
+  font-size: 23px;
+  text-shadow: var(--sombra-criador-pagina);
+  border: var(--borda-criador-pagina);
+}
+
+.redes-sociais-card {
+  display: flex;
+  column-gap: 13px;
+  margin-top: 4%;
+}
+
+.redes-sociais-card {
+  transform: (-50%, -50%);
+}
+
+.redes-sociais-card a {
+  height: 49px;
+  width: 49px;
+  background-color: var(--redes-sociais);
+  border-radius: var(--border-radius-redes-sociais);
+  transition: 0.8s ease;
+}
+
+.redes-sociais-card a:hover {
+  background-color: #2c3e50;
+}
+
+.redes-sociais-card a img {
+  transition: 1.1s all;
+}
+
+.redes-sociais-card a:hover > img {
+  transform: scale(1.1) rotate(360deg);
+}
+
+/* Media Screnn */
+@media screen and (min-width: 350px) and (max-width: 920px) {
+  nav {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    line-height: 1%;
+    flex-direction: column;
+    background: rgb(0, 0, 0);
+    border-bottom: var(--nav-border);
+  }
+
+  .logo-nav-bar {
+    height: 18%;
+  }
+
+  .topico-nav-bar {
+    margin-right: 1%;
+    font-size: 1.4em;
+    color: white;
+    font-family: "MuseoModerno", cursive;
+    text-shadow: 1px 1px 2px rgb(253, 165, 2);
+  }
+
+  .titulo-organizadores h1 {
+    color: var(--titulo);
+    font-size: 1.7em;
+    margin-left: 8vw;
+    font-family: "MuseoModerno", cursive;
+    /* text-shadow: 1px 1px 2px rgb(253, 165, 2); */
+    text-shadow: var(--sombra-titulo);
+  }
+
+  .titulo-organizadores span {
+    color: var(--emunah);
+    font-family: "MuseoModerno", cursive;
+    text-shadow: var(--sombra-emunah);
+  }
+
+  .container-organizadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 1%;
+  }
+
+  .funcao-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    row-gap: 4px;
+    color: var(--funcao);
+    font-size: 1.4em;
+    font-family: "MuseoModerno", cursive;
+    text-shadow: var(--sombra-funcao);
+  }
+
+  .fundo-imagem-card {
+    width: 150px;
+    height: 150px;
+    background-color: var(--fundo-imagem);
+    border-radius: 50%;
+    border: var(--borda-imagem);
+  }
+
+  .fundo-imagem-card img {
+    height: 156px;
+    width: 152px;
+    border-radius: 60%;
+  }
+
+  .redes-sociais-card {
+    display: flex;
+    column-gap: 13px;
+    margin-bottom: 2vh;
+  }
+}
+
+/* Conteúdo da página*/

@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: "MuseoModerno", cursive;
+  font-size: 16px;
+}
+
+header {
+  position: fixed;
+  width: 400px;
+  height: 100vh;
+  color: orange;
+  background: black;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+  font-size: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+main {
+  position: absolute;
+  font-size: 16px;
+  left: 400px;
+  width: calc(100% - 400px);
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 4px solid black;
+  outline: 2px solid black;
+  outline-offset: 2px;
+  background: rgb(255, 165, 0);
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: white;
+}
+
+form {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background: white;
+  color: orange;
+  gap: 30px;
+  padding: 30px;
+  height: 250px;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+form a {
+  color: white;
+}
+
+form button {
+  margin: 35px;
+}
+
+input::placeholder {
+  color: orange;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  border-bottom: 4px solid orange;
+  width: 300px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+footer p {
+  text-align: center;
+  color: black;
+  background: orange;
+}
+
+nav p:hover {
+  transition: 0.5s;
+  scale: 1.2;
+  text-decoration: underline;
+}
+
+button a:hover {
+  color: white;
+}
+
+button:hover {
+  transition: 0.5s;
+  scale: 1.1;
+  color: white;
+  background: black;
+  border-bottom: 4px solid white;
+}
+
+.logo {
+  width: 200px;
+}
+
+.redes-sociais img {
+  width: 35px;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.4em;
+  padding: 20px;
+  width: 400px;
+}
+
+.rede {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.admin-client {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  background: orange;
+  height: 100vh;
+}
+
+.client {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: center;
+  font-size: 1.4em;
+  width: 400px;
+}
+
+.client a {
+  color: white;
+  padding: 10px;
+  background: orange;
+  outline: 2px solid black;
+  outline-offset: 2px;
+  border-radius: 10px;
+  border-bottom: 4px solid black;
+  border-radius: 5px;
+}
+
+.client a:hover {
+  transition: 0.5s;
+  scale: 1.1;
+  color: white;
+  background: black;
+  border-bottom: 4px solid white;
+}
+
+.admin {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: center;
+  font-size: 1.4em;
+  width: 400px;
+}
+
+.hide {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 920px) {
+  header {
+    display: none;
+  }
+
+  .redes-sociais {
+    display: none;
+  }
+
+  main {
+    position: absolute;
+    left: 0;
+  }
+
+  .admin-client {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    background: orange;
+    height: 200vh;
+    width: 200vw;
+  }
+
+  .admin img,
+  .client img {
+    width: 75vw;
+  }
+
+  .admin,
+  .client {
+    font-size: 10vw;
+    width: 100vw;
+  }
+
+  .login {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 5vw;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7.5vw;
+    width: 150vw;
+    height: 125vw;
+  }
+
+  input {
+    font-size: 7.5vw;
+    width: 125vw;
+  }
+
+  form button {
+    font-size: 10vw;
+  }
+}

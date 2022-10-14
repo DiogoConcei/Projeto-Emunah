@@ -1,0 +1,321 @@
+@keyframes fundo {
+  0% {
+    background-image: url(/img/imagem1.png);
+  }
+  10% {
+    background-image: url(/img/imagem1.png);
+  }
+  20% {
+    background-image: url(/img/imagem1.png);
+  }
+  30% {
+    background-image: url(/img/imagem2.png);
+  }
+  40% {
+    background-image: url(/img/imagem2.png);
+  }
+  50% {
+    background-image: url(/img/imagem3.png);
+  }
+  60% {
+    background-image: url(/img/imagem3.png);
+  }
+  70% {
+    background-image: url(/img/imagem4.png);
+  }
+  80% {
+    background-image: url(/img/imagem4.png);
+  }
+  90% {
+    background-image: url(/img/imagem5.png);
+  }
+  100% {
+    background-image: url(/img/imagem5.png);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/fundo-sobre.png);
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: orange;
+}
+/*NAVEGAÇÂO*/
+nav {
+  width: 100%;
+  height: 800px;
+  background-image: url(/img/fundocrianca.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  gap: 7%;
+  margin-bottom: 100px;
+}
+
+.logo {
+  height: 10%;
+}
+
+.container-icones {
+  display: flex;
+  gap: 0%;
+  width: 10%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 20%;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.topico {
+  font-size: 1.4em;
+  height: 10px;
+  color: white;
+  font-family: "MuseoModerno", cursive;
+  text-shadow: 1px 1px 2px rgb(73, 73, 73);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.topico:hover {
+  color: orange;
+  font-size: 1.5em;
+}
+
+/*CONTEUDO EM GERAL*/
+main {
+  font-family: "MuseoModerno", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*ATIVIDADES*/
+.topicos-corpo {
+  font-size: 3em;
+}
+
+.atividade1 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.lado1-modelo1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.foto-musica {
+  border-radius: 5%;
+  width: 80%;
+  border: 3px solid black;
+}
+
+.lado2-modelo1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-musica {
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+
+.sobre-musica {
+  width: 70%;
+  height: 50%;
+}
+
+.apoiar {
+  width: 20%;
+  height: 10%;
+  background-color: rgb(255, 181, 43);
+  border: none;
+  font-family: "MuseoModerno", cursive;
+  border-radius: 2%;
+  cursor: pointer;
+}
+
+.apoiar:hover {
+  background-color: orange;
+}
+
+.atividade2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-top: 100px;
+}
+
+.lado1-modelo2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lado2-modelo2 {
+  width: 50%;
+  height: 100%;
+}
+
+.titulo-defesa {
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+.sobre-defesa {
+  width: 70%;
+  height: 50%;
+}
+
+.foto-jiu-jitsu {
+  margin-top: 60px;
+  border-radius: 5%;
+  width: 80%;
+  border: 3px solid black;
+}
+
+#atividade3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*EVENTOS*/
+.container-eventos {
+  width: 800px;
+  height: 500px;
+  margin-bottom: 30px;
+  outline: 3px solid black;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 2%;
+  overflow: hidden;
+  animation: fundo;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+#bottom-slide {
+  width: 800px;
+  height: 80px;
+  margin-bottom: 100px;
+}
+/*ENDEREÇO*/
+.container-endereco {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*PAGINA SOBRE*/
+/*SOBRE*/
+.topicos-corpo {
+  font-family: "MuseoModerno", cursive;
+  display: flex;
+  flex-direction: column;
+}
+.container-texto {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre {
+  width: 1000px;
+  font-size: 2em;
+}
+.video {
+  width: 99%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*PARCERIAS*/
+.topico-parcerias {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 153, 0);
+}
+
+.parceria {
+  font-size: 2.5em;
+  color: white;
+}
+
+.container-logos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20%;
+  position: relative;
+}
+
+.logo-rocinha {
+  width: 10%;
+  position: absolute;
+  top: -30px;
+  left: 200px;
+  margin-bottom: 100px;
+}
+
+.logo-gerando {
+  position: absolute;
+  width: 10%;
+  top: -60px;
+  left: 1000px;
+}
+/*RODAPE*/
+footer {
+  background-color: black;
+  width: 100%;
+  height: 322px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "MuseoModerno", cursive;
+  gap: 5%;
+}
+.rodape-lado {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-rodape {
+  width: 25%;
+}
+.container-icon-rodape {
+  display: flex;
+  gap: 10px;
+}
+.icon-rodape {
+  width: 30px;
+}

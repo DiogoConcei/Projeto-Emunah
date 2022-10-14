@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/admin.css">
+    <script src="/script/API.js" defer></script>
+    <title>Área do admin</title>
+</head>
+
+<body>
+
+    <main>
+        <section class="matricula" id="dados">
+            <h1>Formulário de matrícula</h1>
+            <form action="https://api.sheetmonkey.io/form/ayxwa8Rde34rConkpDweQS" method="post">
+                <h2>Dados para a matrícula</h2>
+                <section class="dados-pessoais">
+                    <input required autofocus type="text" placeholder="Nome" name="Nome'" id="">
+                    <input required type="text" placeholder="Naturalidade" name="Pais de origem" id="">
+                    <input required type="date" placeholder="Data de nascimento" name="Data de nascimento" id="">
+                    <input required type="text" placeholder="Nome da mãe" name="Nome do responsável" id="">
+                    <input required type="text" placeholder="Naturalidade" name="Pais de origem" id="">
+                    <input required type="text" placeholder="Nome do pai" name="Nome do responsável" id="">
+                    <input required type="text" placeholder="Naturalidade" name="Pais de origem" id="">
+                    <input required type="tel" placeholder="Nº Celular" name="Número do celular" id="">
+                    <input type="tel" placeholder="Nº Telefone fixo" name="Número do celular" id="">
+                    <input placeholder="E-mail" type="email" name="Email" id="">
+                </section>
+
+                <section class="endereco">
+                    <h2>Endereço</h2>
+                    <input required type="text" placeholder="CEP" class="CEP" name="CEP" id="cep">
+                    <input type="text" placeholder="Bairro" name="Bairro" id="bairro">
+                    <input type="text" placeholder="Complemento" name="Complemento" id="numero">
+                    <input type="text" placeholder="Logradouro" name="Logradouro" id="logradouro">
+                    <input type="text" placeholder="Cidade" name="Cidade" id="cidade">
+                    <input type="text" placeholder="Estado" name="Estado" id="estado">
+                </section>
+
+                <section class="Escolaridade">
+                    <h2>Escolaridade</h2>
+                    <label for="Fundamental"> Fundamental
+                        <input type="radio" name="Escolaridade" value="Fundamental" id="Fundamental">
+                    </label>
+
+                    <label for="Médio"> Médio
+                        <input type="radio" value="Médio" name="Escolaridade" id="Médio">
+                    </label>
+
+                    <label for="Superior"> Superior
+                        <input type="radio" value="Superior" name="Escolaridade" id="Superior">
+                    </label>
+
+
+                </section>
+                <section class="Cursos">
+                    <h2>Cursos</h2>
+                    <label for="Canto Coral"> Canto Coral
+                        <input type="radio" value="Canto Coral" name="Cursos" id="Canto Coral">
+                    </label>
+                    <label for="Flauta Doce"> Flauta Doce
+                        <input type="radio" value="Flauta Doce" name="Cursos" id="Flauta Doce">
+                    </label>
+                    <label for="Musicalização"> Musicalização
+                        <input type="radio" value="Musicalização" name="Cursos" id="Musicalização">
+                    </label>
+                    <label for="Violão"> Violão
+                        <input type="radio" value="Violão" name="Cursos" id="Violão">
+                    </label>
+                    <label for="Violino"> Violino
+                        <input type="radio" value="Violino" name="Cursos" id="Violino">
+                    </label>
+                </section>
+
+                <section class="btn">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </section>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

@@ -84,7 +84,7 @@ nav {
   height: 82px;
   display: flex;
   justify-content: space-evenly;
-  backgound-color: black;
+  background-color: black;
   align-items: center;
   border-bottom: var(--nav-border);
 }

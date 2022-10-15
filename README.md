@@ -11,8 +11,9 @@ Recentemente, também espreitamos relações com uma grande escola de música, n
 
  ## 🛠 Funcionalidades das Páginas
 
-* `Quem Somos`: CSS Flex-Box e CSS Grid no desenvolvimento do layout, Animations CSS na construção visual da página
-* `Área do Administrador`: Login para administrador do sistema de matrículas, feito com Event DOM Java Script, para exibir o formulário de inscrição no display, validando o login e a senha através do Java Script.
-* `Matrícula`: Consumo da API "Via Cep" para auxilio no cadastro das crianças na instituição. Requisição da API "SheetMonkey" para envio de dados cadastrais a uma planilha do Excel. Responsive CSS. 
+* `Quem Somos`: CSS Flex-Box e CSS Grid no desenvolvimento do layout, Animations CSS na construção visual da página.
+* `Área do Administrador`: Sistema de matrículas feito com Event DOM JavaScript, validando o login e a senha através do Java Script.
+* `Matrícula`: Consumo da API "Via Cep" para auxilio no cadastro das crianças na instituição. Requisição da API "SheetMonkey" para envio de dados cadastrais a uma planilha do Excel.
+* `Desenvolvedores`: Dark Mode com Event Dom JavaScript.
 * `Contato`: ??
-* `Organizadores`: ??
+

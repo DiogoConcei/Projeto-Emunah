@@ -12,7 +12,7 @@
 
 <h2 id="sobre"> 📚 Sobre o projeto </h2>
  
-Projeto em grupo do curso **Programadores Cariocas**. Iniciativa de apoio e divulgação de um projeto existente, o projeto **Emunah** foi criado a 4 anos, com intuito de promover as atividades culturais, esportivas e intelectuais de crianças em situação de rua. 
+Projeto em grupo do curso **Programadores Cariocas**. Iniciativa de apoio e divulgação de um projeto existente, o projeto **Emunah** foi criado a 4 anos, com intuito de promover as atividades culturais, esportivas e intelectuais de crianças em situação de rua. Você pode acessá-lo aqui: https://diogoconcei.github.io/Projeto-Emunah/ 
 
 <h2 id="funcionalidades"> 🛠 Funcionalidades </h2>
 

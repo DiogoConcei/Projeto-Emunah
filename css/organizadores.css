@@ -1,10 +1,8 @@
-/* Fontes */
-
+  /* Fonte */
 @import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@900&display=swap");
+  /* Fonte */
 
-/* Fontes */
-
-/* Dark Mode */
+  /* Dark Mode */
 :root {
   --body-bg: radial-gradient(
     circle,
@@ -70,6 +68,7 @@
   --border-radius-redes-sociais: 60%;
   --hover-redes-sociais: rgba(238, 229, 229, 0.925);
 }
+  /* Dark Mode */
 
 body {
   padding: 0px;
@@ -78,7 +77,7 @@ body {
   background: var(--body-bg);
 }
 
-/* Nav Bar */
+  /* Nav Bar */
 nav {
   width: 100%;
   height: 82px;
@@ -145,10 +144,9 @@ a {
   left: 3%;
   transform: translateY(-1%);
 }
+  /* Nav Bar */
 
-/* Nav Bar */
-
-/* Título da página */
+  /* Título da página */
 .titulo-organizadores {
   display: flex;
   flex-direction: column;
@@ -170,9 +168,9 @@ a {
   font-family: "MuseoModerno", cursive;
   text-shadow: var(--sombra-emunah);
 }
-/* Título da página */
+  /* Título da página */
 
-/* Conteúdo da página*/
+  /* Conteúdo da página*/
 .container-organizadores {
   display: flex;
   flex-direction: row;
@@ -253,8 +251,9 @@ a {
 .redes-sociais-card a:hover > img {
   transform: scale(1.1) rotate(360deg);
 }
+    /* Conteúdo da página*/
 
-/* Media Screnn */
+    /* Media Screnn */
 @media screen and (min-width: 350px) and (max-width: 920px) {
   nav {
     width: 100%;
@@ -332,5 +331,3 @@ a {
     margin-bottom: 2vh;
   }
 }
-
-/* Conteúdo da página*/

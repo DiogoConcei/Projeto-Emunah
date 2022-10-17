@@ -107,11 +107,13 @@ a {
   font-size: 1.4em;
   color: white;
   font-family: "MuseoModerno", cursive;
-  text-shadow: 1px 1px 2px rgb(253, 165, 2);
+  text-shadow: 1px 1px 2px rgb(73, 73, 73);
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .topico-nav-bar:hover {
-  color: rgb(253, 165, 2);
+  color: orange;
   text-shadow: 0px 1px 1px white;
   transition: 1s ease;
   transform: scale(1.1);

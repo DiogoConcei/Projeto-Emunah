@@ -232,6 +232,7 @@ main {
   font-family: "MuseoModerno", cursive;
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 .container-texto {
   width: 100%;

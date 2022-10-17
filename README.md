@@ -1,6 +1,6 @@
 <h1 align= "center"> Projeto Emunah  </h1>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=RayanArgolo03&Alexandre-Brag4&Gmedon&DiogoConcei&AirtonSGuedeslabel=Profile%20views&color=orange&style=for-the-badge&label=Acessos" alt="Spyke27" /> <img src="http://img.shields.io/static/v1?label=status&message=Em%20desenvolvimentoO&color=yellow&style=for-the-badge"</p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=RayanArgolo03&Alexandre-Brag4&Gmedon&DiogoConcei&AirtonSGuedeslabel=Profile%20views&color=orange&style=for-the-badge&label=Acessos" alt="Spyke27" /> <img src="http://img.shields.io/static/v1?label=status&message=Em%20desenvolvimento&color=yellow&style=for-the-badge"</p>
 
 <p align="center">
  <a href="#sobre">Sobre</a> •
@@ -19,7 +19,7 @@ Projeto em grupo do curso **Programadores Cariocas**. Iniciativa de apoio e divu
 * `Área do Administrador`: Sistema de matrículas feito com Event DOM JavaScript, validando o login e senha.
 * `Matrícula`: Consumo da API "Via Cep" para auxilio no cadastro das crianças na instituição. Requisição da API "SheetMonkey" para envio de dados cadastrais a uma planilha do Excel.
 * `Desenvolvedores`: Dark Mode com Event Dom JavaScript.
-* `Contato`: Validação de informações com JavaScrit Validation.
+
 
 <h2 id="tecnologias"> ✔️ Tecnologias Utilizadas </h2>
   <div style="display: inline_block">

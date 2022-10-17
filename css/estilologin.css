@@ -421,6 +421,9 @@ footer {
   .foto-musica {
     margin-right: 70px;
   }
+  .video {
+    margin-top: 100px;
+  }
 }
 @media (max-width: 450px) {
   .container-eventos {

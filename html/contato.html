@@ -1,0 +1,110 @@
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>document</title>
+    <link rel="stylesheet" href="../style-nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu-inicial">
+        <div class="menu">
+            <div class="info-menu">
+                <img id="logo" src="../img/Abreviacao_Laranja.png" alt="Logo">
+                <a href="../html/atividades.html" class="info-nav" id="quem-somos">Atividades</a>
+                <a href="../html/sobre.html" class="info-nav">Sobre</a>
+                <a href="../html/organizadores.html" class="info-nav">Desenvolvedores</a>
+                <a href="../index.html" class="info-nav" id="contato">Administrador</a>  
+            </div>
+        </div>
+        <div id="espaco" ></div>
+        <div> <a class="titulo-ctt">CONTATO</a></div>
+    </div>
+
+    <section class="corpo">
+        <div class="tabela">
+            <p>Antes de abrir um chamado, verifique se suas perguntas já foram respondidas em nosso <a href="https://www.instagram.com/projetoemunahoficial/" target="_blank">instagram.</a></p>
+
+            <p>Fale com a gente pelo Whatsapp.</p>
+            <a href="https://api.whatsapp.com/send/?phone=5521979714321&text&type=phone_number&app_absent=0" target="_blank">
+                <button class="wpp"><img class="logo-wpp" src="../img/logo-wpp.png" alt="logo Whatsapp">INICIAR CONVERSA</button>
+            </a>
+            <p> Se preferir, envie um e-mail para: <a href="mailto:projetoemunahrj@gmail.com" target="_blank">projetoemunahrj@gmail.com</a>.</p>
+        </div>
+    </section>
+
+    <section class="segundo-corpo">
+        <div class="container">
+            <div class="info-contato">
+                <div class="ligue">
+                    <img id="logo-tel" src="../img/logo-tel.png">
+                    <h1 id="info-formulario">LIGUE PARA NÓS</h1>
+                    <div class="numero"><p>(21) 97971-4321 / (21) 92092-8312</p></div>
+                </div>
+                <div class="localizacao">
+                    <img id="logo-loca" src="../img/logo-loca.png" alt="logo-localizão">
+                    <h1 id="titulo-loca">LOCALIZAÇÃO</h1>
+                    <p class="local-info">
+                        <a id="mapa" href="https://www.google.com.br/maps/place/R.+18+de+Fevereiro,+35+-+Vargem+Grande,+Rio+de+Janeiro+-+RJ,+22785-230/@-23.0130419,-43.5114915,21z/data=!4m12!1m6!3m5!1s0x9be86fe4bc2035:0xf106b7015cce9c0e!2sCl%C3%ADnica+Taboinha!8m2!3d-23.0130522!4d-43.511503!3m4!1s0x9be86feb47bae5:0x149de67124cd2b23!8m2!3d-23.0130556!4d-43.511502" target="_blank">
+                             Rua 18 de fevereiro, QUADRA A, N° 3 - Vargem Grande - Comunidade Vila Taboinha - Rio de Janeiro - RJ</p>
+                        </a>
+                </div>
+                <div class="horario">
+                    <img id="logo-alarme" src="../img/logo-alarm.png" alt="logo alarme">
+                    <h1 id="titulo-horario">HORÁRIO DE ATENDIMENTO</h1>
+                    <div class="info-num">Segunda a Sexta a partir das 08:00 às 18:00</div>
+                </div>
+            </div>
+            <form action="https://api.staticforms.xyz/submit" method="post" class="card" class="form" id="form" name="form">
+                <input type="hidden" name="accessKey" value="22dbf6c0-c3cd-4b6a-bebb-a55ae42f8ddd">
+                <h1 id="fale-conosco">FALE CONOSCO</h1>
+
+                <div class="form-control" >
+                    <input id="nome" name="name" type="text" placeholder="Digite o seu nome" required>
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Nav.html">
+                    <!-- <i><img class="img-sucesso" src="img/correto.png" alt="certo"></i>
+                    <i><img class="img-error" src="img/cruz.png" alt="errado"></i> -->
+                </div>
+
+                <div class="form-control">
+                    <input id="email" name="email" type="email" placeholder="Digite o seu email" required>
+                    <!-- <i><img class="ims-sucesso" src="img/correto.png" alt="certo"></i>
+                    <i><img class="img-error" src="img/cruz.png" alt="errado"></i> -->
+                </div>
+
+                <div class="form-control">
+                    <input id="assunto" name="$assunto" type="text" placeholder="Assunto">
+                    <!-- <i><img class="img-sucesso" src="img/correto.png" alt="certo"></i>
+                    <i><img class="img-error" src="img/cruz.png" alt="errado"></i> -->
+                </div>
+
+                <div class="form-control" id="form-text">
+                    <textarea id="mensagem" name="message" type="text" placeholder="Mensagem"></textarea>
+                </div>
+
+                <button id="enviar">Enviar</button>
+            </form>
+            
+            <div class="popup-wrapper">
+                <div class="popup">
+                    <div class="popup-close">x</div>
+                    <div class="popup-content">
+                        <h2>Você tem certeza?</h2>
+                        <p>msda=sdsadasdsads</p>
+                        <a href="sadasdasd"><button id="popup-btt">Enviar</button></a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

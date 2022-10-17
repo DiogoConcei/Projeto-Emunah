@@ -19,6 +19,7 @@ Projeto em grupo do curso **Programadores Cariocas**. Iniciativa de apoio e divu
 * `Área do Administrador`: Sistema de matrículas feito com Event DOM JavaScript, validando o login e senha.
 * `Matrícula`: Consumo da API "Via Cep" para auxilio no cadastro das crianças na instituição. Requisição da API "SheetMonkey" para envio de dados cadastrais a uma planilha do Excel.
 * `Desenvolvedores`: Dark Mode com Event Dom JavaScript.
+* `Contato`: Sistema de validação de contato com JavaScript.
 
 
 <h2 id="tecnologias"> ✔️ Tecnologias Utilizadas </h2>

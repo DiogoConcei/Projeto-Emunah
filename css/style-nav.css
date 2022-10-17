@@ -24,7 +24,7 @@ a {
     font-size: 20px;
     font-family: 'MuseoModerno', cursive;
     font-weight: bolder;
-    color: white;
+    color: whitesmoke;
 }
 
 #logo {
@@ -43,7 +43,7 @@ a {
 }
 
 .info-nav:hover {
-    color: rgb(175, 175, 175);
+    color: orange;
 }
 
 .menu-inicial {

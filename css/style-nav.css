@@ -1,0 +1,545 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+a {
+    text-decoration: none;
+}
+
+.menu {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    background: rgb(70,70,70);
+    background: radial-gradient(circle, rgba(70,70,70,0.16010154061624648) 0%, rgba(70,70,70,0.19931722689075626) 100%);
+    margin-left: 0px;
+}
+
+.info-menu {
+    display: flex;
+    align-items: center;
+    height: 80%;
+    font-size: 20px;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: bolder;
+    color: white;
+}
+
+#logo {
+    margin-left: 10%;
+    height: 80px;
+}
+
+#quem-somos {
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.info-nav {
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.info-nav:hover {
+    color: rgb(175, 175, 175);
+}
+
+.menu-inicial {
+    background-image: url(../img/foto.principal.jpg);
+    background-position-y: -450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2px;
+    object-fit: cover;
+}
+
+#espaco {
+    height: 250px;
+}
+
+.titulo-ctt {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(223, 218, 230);
+
+}
+
+.tabela {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    border: 1px solid rgb(128, 128, 128);
+    height: 350px;
+    box-shadow: 0.5px 0.5px 1px white;
+
+}
+
+.wpp {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white; 
+    background: rgb(255, 94, 0);
+    width: 300px;
+    height: 60px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.wpp:hover {
+    background-color: rgb(231,111,19)
+}
+
+.logo-wpp {
+    height: 50%;
+
+}
+
+.segundo-corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(223, 218, 230);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background: rgb(255,76,0,1);
+    height: 80%;
+    width: 100%;
+}
+
+.info-contato {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.ligue, .horario, .localizacao {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+}
+
+#logo-loca, #logo-tel, #logo-alarme{
+    margin-top: 10px;
+    height: 25%;
+    margin-left: 20px;
+    object-fit: cover;
+
+}
+
+#info-formulario, #titulo-loca, #titulo-horario {
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+.numero {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    position: relative;
+    top: 42px;
+    right: 166px;
+}
+
+.info-num {
+    height: 50px;
+    width: 900px;
+    position: relative;
+    top: 70px;
+    right: 155px;
+}
+
+.local-info {
+    font-size: 18px;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    right: 155px;
+}
+#mapa {
+    color: black;   
+}
+.local-info:hover{
+    font-size: 20px;
+}
+
+.info-num {
+    font-size: 18px;
+}
+
+.card {
+    box-shadow: 1px 1px 1px rgb(117, 114, 114);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    background-color: white;
+    height: 116%;
+    width: 600px;
+    bottom: 40px;
+
+}
+
+#enviar {
+    background-color: white;
+    margin-left: 12%;
+    color: black;
+    font-weight: bolder;
+    height: 30px;
+    width: 90px;
+    margin-top: 20px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+#enviar:hover {
+    transition: 0.5s;
+    scale: 1,1;
+    color: white;
+    background-color: rgb(255, 94, 0);
+}
+#fale-conosco {
+    text-shadow: 1px 1px 1px rgb(153, 130, 28);
+    margin-left: 12%;
+    color: rgb(255, 94, 0);
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+}
+#mensagem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 12%;
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 400px;
+    height: 90px;
+}
+
+#assunto, #email, #nome {
+    margin-left: 12%;
+    color: black;
+    height: 30px;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 400px;
+    
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgb(0, 0, 0);
+    font-family: 'MuseoModerno', cursive;
+}
+
+input, textarea {
+    border-right: 0 solid;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    font-family: 'MuseoModerno', cursive;
+}
+
+.form-control { 
+    width: 100%;
+}
+
+.img-error {
+    position: absolute;
+    margin-top: 28px;
+    left: 486px;
+    height: 16px !important;
+}
+/*Uso da Janela de Confirmação*/
+#popup-btt{
+    display: block;
+    margin: 20px auto;
+    background: green;
+    border: 0;
+    cursor: pointer;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+.popup-wrapper {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: white;
+    position: relative;
+    border: 3px solid black;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+/* Uso do javascript */
+
+.errorInput {
+    border: 3px solid #DB5A5A !important;
+}
+
+.successInput {
+    border: 3px solid #4ECA64 !important;
+}
+
+/* Fim do uso do javascript */
+@media (max-width: 1200px) {
+    .info-menu {
+        font-size: 18px;
+    }
+    .info-nav {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 1000px) {
+    .info-menu {
+        font-size: 14px;
+        display: flex;
+        gap: 2%;
+    }
+    .info-nav {
+        margin-left: 0px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    #logo-loca, #logo-tel, #logo-alarme{
+        margin-top: 0px;
+        height: 19%;
+        margin-left: 20px;
+        object-fit: cover;
+    
+    }
+    .ligue, .horario, .localizacao {
+        display: flex;
+        flex-direction: row;
+        height: 170px;
+        margin-top: 5px;
+        margin-left: 20px;
+        width: 500px;
+    }
+}
+@media (max-width: 800px) {
+    .info-menu {
+        font-size: 11px;
+        gap: 2%;
+    }
+    #quem-somos {
+        margin-left: 50px;
+    }
+    #logo {
+        margin-left: 5%;
+    }
+    .menu {
+        position: relative;
+    }
+    .menu-inicial {
+        background-position-y: -250px;
+    }
+}
+@media (max-width: 630px) {
+    .tabela {
+        width: 300px;
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-ctt {
+        font-size: 0px;
+    }
+    .form-control {
+        width: 20px;
+    }
+    #form {
+        width: 400px;
+        align-self: center;
+    }
+    .ligue, .horario, .localizacao {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+    }
+    #logo-loca, #logo-tel, #logo-alarme{
+        height: 0%;
+    }
+    .segundo-corpo p, .info-num {
+        width: 300px;
+        margin-left: 180px;
+        font-size: 15px;
+    }
+    .container {
+        height: 600px;
+    }
+    form {
+        margin-top: 200px;
+    }
+}
+@media (max-width: 600px) {
+    #quem-somos {
+        margin-left: 5px;
+    }
+    #logo {
+        margin-left: 2%;
+        height: 50px;
+    }
+    #titulo-horario, #info-formulario, #titulo-loca {
+        width: 140px;
+    }
+}
+@media (max-width: 500px) {
+    .titulo-ctt {
+        font-size: 0px;
+    }
+    .info-menu {
+        font-size: 10px;
+        gap: 2%;
+    }
+    .ligue, .horario, .localizacao {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        font-size: 6px;
+        align-self: flex-start;
+    }
+    #logo-loca, #logo-tel, #logo-alarme{
+        height: 0%;
+    }
+    #titulo-horario {
+        margin-left: 0px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+        align-items: flex-start;
+    }
+    form {
+        margin-top: 200px;
+        align-self: center;
+    }
+    .segundo-corpo p, .info-num {
+        margin-left: 100px;
+        font-size: 14px;
+    }
+    input, #nome, #assunto, #email, #mensagem {
+        width: 300px;
+    }
+    .menu-inicial {
+        background-position-y: -0px;
+        height: 300px;
+    }
+    .segundo-corpo p, .info-num {
+        width: 300px;
+        margin-left: 150px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 400px) {
+    #logo {
+        height: 0px;
+    }
+    .menu-inicial {
+        height: 500px;
+    }
+    .info-menu {
+        font-size: 7px;
+        gap: 2%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .segundo-corpo p, .info-num {
+        width: 300px;
+        margin-left: 150px;
+        font-size: 12px;
+    }
+    .ligue, .horario, .localizacao {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        font-size: 6px;
+        align-self: flex-start;
+    }
+    #form {
+        width: 300px;
+    }
+    input, #nome, #assunto, #email, #mensagem {
+        width: 200px;
+    }
+    .info-num {
+        width: 250px;
+    }
+    .menu-inicial {
+        background-position-y: -0px;
+        height: 300px;
+    }
+}

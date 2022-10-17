@@ -451,6 +451,12 @@ input, textarea {
     #titulo-horario, #info-formulario, #titulo-loca {
         width: 140px;
     }
+    .info-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 40%;
+        font-size: 15px;
+    }
 }
 @media (max-width: 500px) {
     .titulo-ctt {
